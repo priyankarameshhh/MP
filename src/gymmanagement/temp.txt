@@ -1,0 +1,1 @@
+ CREATE TABLE customer ( cid int AUTO_INCREMENT PRIMARY KEY, cname varchar(20), cgender varchar(10), cweight double, cheight double, cbmi double, premium boolean, tid int FOREIGN KEY);  
